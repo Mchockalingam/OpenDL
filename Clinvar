@@ -1,0 +1,11 @@
+Objective
+
+The objective is to predict whether a ClinVar variant will have conflicting classifications. This is presented here as a binary classification method, where each data in the dataset is a genetic variant.
+
+Conflicting classifications are when two of any of the following three categories are present for one variant.
+Likely Benign or Benign
+Variant of uncertain significance
+Likely Pathogenic or Pathogenic
+I have assigned Conflicting classification to the CLASS column. It is a binary representation of whether or not a variant has conflicting classifications, where 0 represents consistent classifications and 1 represents conflicting classifications.
+
+I have removed all the variants from original clinvar since Since this problem only relates to variants with multiple classifications.
